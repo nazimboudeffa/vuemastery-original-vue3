@@ -1,0 +1,40 @@
+// Global Variables
+@import 'scss/global/variables';
+
+// Vendor Styles
+@import '~bulma/bulma';
+
+// Global Files
+@import 'scss/global/layout';
+
+// Components
+@import 'scss/components/nav-bar';
+@import 'scss/components/news-issue';
+@import 'scss/components/news-story';
+
+// Helpers
+@import 'scss/helpers/utilities';
+
+
+
+
+// OVERRIDES
+
+// BOX
+.box {
+	padding: $gap;
+}
+
+// LEVEL
+.level .field {
+	margin-bottom: 0;
+}
+
+// ARTICLE
+.article-object {
+	padding: $gap 0 $gap $gap;
+}
+
+.blue {
+	color: $blue !important;
+}
