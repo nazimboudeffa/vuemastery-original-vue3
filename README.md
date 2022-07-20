@@ -1,4 +1,6 @@
-# libreclassroom-site
+# vuemastery original site
+
+https://github.com/Code-Pop/vue-mastery-old
 
 ## Project setup
 ```
